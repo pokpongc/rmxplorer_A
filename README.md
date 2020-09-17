@@ -19,6 +19,9 @@
 7. U9: Centigrade Temperature Sensor ([LM35](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/lm35dmx_temperature_sensor.pdf))
 8. U11: Instrumentation Amplifier ([INA125](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/ina125_analog_loadcell_amplifier.pdf))
 
+![alt text](media/sensors.jpg "Sensors")
+![alt text](media/bi.jpg "On board current sensor")
+
 ## Important Notes
 
 ### Using RMXplorer _with_ 24VDC Adapter
@@ -54,6 +57,8 @@ PA_8 | PWM1/1 | NC
 VDD | - | NC
 GND | - | NC
 
+![alt text](media/hbridge.jpg "H-Bridges")
+
 ### J4 ###
 STM32 Pin | Peripheral | DRV8876 Pin
 ------------ | ------------- | -------------
@@ -77,6 +82,8 @@ PA_9 | PWM1/2 | 1 (EN/IN1) of M3
 PB_10 | PWM2/3 | 2 (PH/IN2) of M3
 PB_15 | - | 3 (nSLEEP) of M3
 2.5K Default Resistor | - | 6 (IRPOPI) of M3
+
+![alt text](media/leds.jpg "LEDs")
 
 ### LEDs ###
 STM32 Pin | LED's Designator
