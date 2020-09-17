@@ -2,7 +2,7 @@
 
 ## Top view of RMXplorer
 
-![alt text](media/board.JPG "TopView")
+![alt text](media/board.jpg "TopView")
 
 ## On Board Features
 
