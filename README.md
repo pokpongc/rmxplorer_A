@@ -31,8 +31,8 @@
 * Move Nucleo's jumper **JP5** to **U5V**.
 
 
-## Default Configuration
-### J8 ###
+## Default Pin Map
+### J8
 
 STM32 Pin | Peripheral | Component Pin
 ------------ | ------------- | -------------
@@ -57,9 +57,10 @@ PA_8 | PWM1/1 | NC
 VDD | - | NC
 GND | - | NC
 
+### J4-J6 H-Bridge Configuration Pin
 ![alt text](media/hbridge.jpg "H-Bridges")
 
-### J4 ###
+#### J4
 STM32 Pin | Peripheral | DRV8876 Pin
 ------------ | ------------- | -------------
 PC_8 | PWM3/3 | 1 (EN/IN1) of M1
@@ -67,7 +68,7 @@ PC_6 | PWM3/1 | 2 (PH/IN2) of M1
 PA_11 | - | 3 (nSLEEP) of M1
 2.5K Default Resistor | - | 6 (IRPOPI) of M1
 
-### J5 ###
+#### J5
 STM32 Pin | Peripheral | DRV8876 Pin
 ------------ | ------------- | -------------
 PA_11 | PWM1/4 | 1 (EN/IN1) of M2
@@ -75,7 +76,7 @@ PC_7 | PWM3/2 | 2 (PH/IN2) of M2
 PB_2 | - | 3 (nSLEEP) of M2
 2.5K Default Resistor | - | 6 (IRPOPI) of M2
 
-### J6 ###
+#### J6
 STM32 Pin | Peripheral | DRV8876 Pin
 ------------ | ------------- | -------------
 PA_9 | PWM1/2 | 1 (EN/IN1) of M3
@@ -83,9 +84,10 @@ PB_10 | PWM2/3 | 2 (PH/IN2) of M3
 PB_15 | - | 3 (nSLEEP) of M3
 2.5K Default Resistor | - | 6 (IRPOPI) of M3
 
+### LEDs
+
 ![alt text](media/leds.jpg "LEDs")
 
-### LEDs ###
 STM32 Pin | LED's Designator
 ------------ | -------------
 PB_14 | D2
