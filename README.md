@@ -1,10 +1,14 @@
 ![alt text](media/logo.JPG "Title")
 
+## Top view of RMXplorer
+
+![alt text](media/board.JPG "TopView")
+
 ## On Board Features
 
-Nucleo F411RE 
-* ([Mbed website](https://os.mbed.com/platforms/ST-Nucleo-F411RE/))
-* ([STM32F411RET6](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/stm32f411xx.pdf))
+* Nucleo F411RE 
+    * [Mbed website](https://os.mbed.com/platforms/ST-Nucleo-F411RE/)
+    * [STM32F411RET6](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/stm32f411xx.pdf)
 
 1. U8: Analog Accelerometer ([ADXL335](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/adxl335_analog_3axis_accelerometer.pdf))
 2. U2: Current Sensor ([ACS712](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/acs712_current_sensor.pdf))
@@ -22,6 +26,7 @@ Nucleo F411RE
 
 ### Using RMXplorer _without_ 24VDC Adapter
 * Move Nucleo's jumper **JP5** to **U5V**.
+
 
 ## Default Configuration
 ### J8 ###
@@ -72,3 +77,13 @@ PA_9 | PWM1/2 | 1 (EN/IN1) of M3
 PB_10 | PWM2/3 | 2 (PH/IN2) of M3
 PB_15 | - | 3 (nSLEEP) of M3
 2.5K Default Resistor | - | 6 (IRPOPI) of M3
+
+### LEDs ###
+STM32 Pin | LED's Designator
+------------ | -------------
+PB_14 | D2
+PA_13 | D3
+PA_14 | D4
+PC_13 | D5
+PC_14 | D6
+PC_15 | D7
