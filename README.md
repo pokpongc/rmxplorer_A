@@ -1,14 +1,14 @@
 ![alt text](media/logo.JPG "Title")
 
-## Top view of RMXplorer
+## Top View of the RMXplorer
 
 ![alt text](media/board.jpg "TopView")
 
 ## On Board Features
 
 * Nucleo F411RE 
-    * [Mbed website](https://os.mbed.com/platforms/ST-Nucleo-F411RE/)
-    * [STM32F411RET6](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/stm32f411xx.pdf)
+    * [Nucleo F411RE on Mbed website](https://os.mbed.com/platforms/ST-Nucleo-F411RE/)
+    * [STM32F411RET6 microcontroller](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/stm32f411xx.pdf)
 
 1. **U8**: Analog Accelerometer ([ADXL335](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/adxl335_analog_3axis_accelerometer.pdf))
 2. **U2**: Current Sensor ([ACS712](https://github.com/pokpongc/rmxplorer_A/blob/master/datasheet/acs712_current_sensor.pdf))
@@ -25,10 +25,10 @@
 ## Important Notes
 
 ### Using RMXplorer _with_ 24VDC Adapter
-* Before plugging in the adapter, _move Nucleo's jumper **JP5** to **E5V**_.
+* Before plugging in the adapter, _move **JP5** to **E5V**_ (on the Nucleo board).
 
 ### Using RMXplorer _without_ 24VDC Adapter
-* Move Nucleo's jumper **JP5** to **U5V**.
+* _Move **JP5** to **U5V**_ (on the Nucleo board).
 
 
 ## Default Pin Map
@@ -40,7 +40,7 @@ PA_0 | ADC1/0 | T-S (Temperature Sensor)
 PA_1 | ADC1/1 | H-S (Hall Effect Sensor)
 PA_4 | ADC1/4 | AZ-S (Z-Axis Accelerometer Output)
 PC_3 | ADC1/13 | AY-S (Y-Axis Accelerometer Output)
-PC_2 | ADC1/12 | AX-S X-Axis Accelerometer Output)
+PC_2 | ADC1/12 | AX-S (X-Axis Accelerometer Output)
 PC_1 | ADC1/11 | LC-S (Instrumental Amplifier)
 PC_0 | ADC1/10 | BI-S (On Board Current Sensor)
 PB_0 | ADC1/8 | M1-S (M1 Current Feedback)
