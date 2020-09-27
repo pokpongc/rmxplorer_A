@@ -65,7 +65,7 @@ STM32 Pin | Peripheral | DRV8876 Pin
 ------------ | ------------- | -------------
 PC_8 | PWM3/3 | 1 (EN/IN1) of M1
 PC_6 | PWM3/1 | 2 (PH/IN2) of M1
-PA_11 | - | 3 (nSLEEP) of M1
+PA_12 | - | 3 (nSLEEP) of M1
 2.5K Default Resistor | - | 6 (IRPOPI) of M1
 
 #### J5
