@@ -46,7 +46,7 @@ PC_0 | ADC1/10 | BI-S (On Board Current Sensor)
 PB_0 | ADC1/8 | M1-S (M1 Current Feedback)
 PC_4 | ADC1/14 | M2-S (M2 Current Feedback)
 PB_1 | ADC1/9 | M3-S (M3 Current Feedback)
-PA-7 | ADC1/7 | P-S (Potentiometer Output)
+PA_7 | ADC1/7 | P-S (Potentiometer Output)
 PA_6 | ADC1/6 | NC
 PA_5 | ADC1/5 | NC
 PC_5 | ADC1/15 | NC
